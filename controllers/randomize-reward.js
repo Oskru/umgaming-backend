@@ -5,7 +5,7 @@ import { isUserOnline } from '../utils/check-player-status.js';
 
 export async function randomizeRewardController(req, res) {
   try {
-    res.header('Access-Control-Allow-Origin', 'https://umgaming.onrender.com/');
+    res.header('Access-Control-Allow-Origin', '*');
 
     const username = req.body.username;
 
